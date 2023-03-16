@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Card App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- HTML that nees to show when the page loads -->
+
+    <h1 class="main-header text-center">Flash Crads</h1>
+
+    <section class="card-wrap text-center">
+        <button id="start">Start</button>
+
+        <div class="card-display hide">
+            <h3 id="question-display">What does the acronym DOM stand for?</h3>
+
+            <!-- timer display -->
+            <h1 id="timer-display">5</h1>
+            <!-- answer display -->
+            <p id="answer-display" class="hide">Document Object Model</p>
+
+            <button id="next" class="hide">Next Card</button>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/cards.js"></script>
+</body>
+
+</html>
